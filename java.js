@@ -106,7 +106,7 @@ function addInputs() {
 	var tax = 0.12;
 	var taxxx = newTotal*tax;
 	var sub = newTotal + taxxx;
-	document.getElementById('order').innerHTML = "Thank you for ordering with Pizza Pizza Pizza,<br> Here's your receipt:<br><br><br>Price: $" + sub + "<br>Subtotal: $" + newTotal +
+	document.getElementById('order').innerHTML = "Thank You for your Order!,<br> Here's your receipt:<br><br><br>Price: $" + sub + "<br>Subtotal: $" + newTotal +
 	"<br>Tax: $" + taxxx + "<br>Total: $" + sub;
 	
 }
